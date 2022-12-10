@@ -1,0 +1,8 @@
+CREATE TABLE Logs (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  creation_datetime DATETIME NOT NULL DEFAULT NOW(),
+  operation VARCHAR(255) NOT NULL,
+  status VARCHAR(255) NOT NULL,
+  log VARCHAR(255),
+  PRIMARY KEY (id)
+);

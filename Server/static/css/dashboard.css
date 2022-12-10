@@ -1,0 +1,17 @@
+#main, #device-name, #device-url, #device-body, #add-device-button {
+  margin-top: 10pt;
+}
+
+table, th, td{
+  border: solid;
+  border-width: 1px;
+  padding: 5pt;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#delete-pin-button, #delete-rfid-button {
+  margin-left: 5pt;
+}
